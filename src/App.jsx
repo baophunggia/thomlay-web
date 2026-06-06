@@ -8,12 +8,13 @@ import confetti from 'canvas-confetti';
 // ----------------------------------------------------
 function ArmoryPage() {
   const [isProcessing, setIsProcessing] = useState(false);
+  const BACKEND_URL = 'https://thomlaysystem.onrender.com';
 
   const handleEquipItem = async (item) => {
     setIsProcessing(true);
     try {
       // Nhớ đổi cổng 5085 thành cổng .NET thực tế của bạn
-      const response = await fetch('http://localhost:5085/api/Checkout/create-session', {
+      const response = await fetch(`${BACKEND_URL}/api/Checkout/create-session`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
