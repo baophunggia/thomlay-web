@@ -1,16 +1,3 @@
-# React + Vite
+Chào ngày mới tốt lành, tôi tiếp tục làm app, lần này app tên là thomlay, thomlay focus vào dòng tinh dầu và nước hoa cho streamer, gamer và kol nổi tiếng trên toàn thế giới, tập trung vào thị trường mỹ. Nên thomlay sẽ mang phong cách quốc tế, giao diện sẽ đi theo hướng của mv come my way của sơn tùng mtp, mang nét vừa truyền thống vừa hiện đại. Có biểu tượng con chim lạc việt nam làm điểm nhấn. Mong muốn mang tâm hồn việt ra thế giới, đặc biệt là nước mỹ.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tinh dầu nước hoa, sáp thơm, nến thơm của thomlay sẽ thật sự mong muốn mang hương thơm lan toả như chính cách gamer, streamer và kol đang làm cho động đồng
