@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Định nghĩa các biến màu tùy chỉnh cho Thomlay */
+  --color-thomlay-dark: #0B0C10;
+  --color-thomlay-gold: #C5A880;
+  --color-thomlay-accent: #1F2833;
+  --color-thomlay-neon: #45A29E;
+}
+
+body {
+  background-color: var(--color-thomlay-dark);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
