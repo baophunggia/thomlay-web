@@ -40,32 +40,16 @@ function ArmoryPage() {
       id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       name: "Tinh dầu Lạc Thần",
       aura: "Aura Focus +50",
-      price: 25.50
+      price: 25.50,
+      imageUrl: "src/assets/images/chim-lac-vector-07.png"
     },
     {
       id: "3fa85f64-5717-4562-b3fc-2c963f66afa7",
       name: "Tinh dầu Trâu Ngọc",
-      aura: "Aura Attack +30",
-      price: 18.75
-    },
-    {
-      id: "3fa85f64-5717-4562-b3fc-2c963f66afa8",
-      name: "Tinh dầu Rồng Lửa",
-      aura: "Aura Defense +40",
-      price: 22.00
-    },
-    {
-      id: "3fa85f64-5717-4562-b3fc-2c963f66afa9",
-      name: "Tinh dầu Băng Giá",
-      aura: "Aura Speed +20",
-      price: 15.25
-    },
-    {
-      id: "3fa85f64-5717-4562-b3fc-2c963f66afaa",
-      name: "Tinh dầu Sấm Sét",
-      aura: "Aura Critical +10%",
-      price: 30.00
-    }
+      aura: "Aura Attack +50",
+      price: 35.75,
+      imageUrl: "src/assets/images/traungoc.png"
+    }    
   ];
 
   return (
@@ -82,7 +66,9 @@ function ArmoryPage() {
       <div className="grid grid-cols-1 gap-4">
         {armoryItems.map((item, index) => (
           <div key={index} className="bg-thomlay-accent/30 border border-gray-800 p-4 rounded-xl flex gap-4 items-center">
-            <div className="w-16 h-16 bg-gray-800 rounded-lg flex-shrink-0 border border-thomlay-neon/30"></div>
+            <div className="w-16 h-16 bg-gray-800 rounded-lg flex-shrink-0 border border-thomlay-neon/30">
+              <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover rounded-lg" />
+            </div>
             <div className="flex-1">
               <h3 className="font-semibold text-sm">{item.name}</h3>
               <p className="text-xs text-gray-400 mt-1">{item.aura}</p>
