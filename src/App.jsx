@@ -67,7 +67,7 @@ function ArmoryPage() {
         {armoryItems.map((item, index) => (
           <div key={index} className="bg-thomlay-accent/30 border border-gray-800 p-4 rounded-xl flex gap-4 items-center">
             <div className="w-16 h-16 bg-gray-800 rounded-lg flex-shrink-0 border border-thomlay-neon/30">
-              <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover rounded-lg" />
+              {/* <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover rounded-lg" /> */}
             </div>
             <div className="flex-1">
               <h3 className="font-semibold text-sm">{item.name}</h3>
