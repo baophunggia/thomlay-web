@@ -41,6 +41,30 @@ function ArmoryPage() {
       name: "Tinh dầu Lạc Thần",
       aura: "Aura Focus +50",
       price: 25.50
+    },
+    {
+      id: "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+      name: "Tinh dầu Trâu Ngọc",
+      aura: "Aura Attack +30",
+      price: 18.75
+    },
+    {
+      id: "3fa85f64-5717-4562-b3fc-2c963f66afa8",
+      name: "Tinh dầu Rồng Lửa",
+      aura: "Aura Defense +40",
+      price: 22.00
+    },
+    {
+      id: "3fa85f64-5717-4562-b3fc-2c963f66afa9",
+      name: "Tinh dầu Băng Giá",
+      aura: "Aura Speed +20",
+      price: 15.25
+    },
+    {
+      id: "3fa85f64-5717-4562-b3fc-2c963f66afaa",
+      name: "Tinh dầu Sấm Sét",
+      aura: "Aura Critical +10%",
+      price: 30.00
     }
   ];
 
